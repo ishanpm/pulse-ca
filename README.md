@@ -1,9 +1,9 @@
 # pulse-ca
 An 18-state CA for making logic gates with (relative) ease
 
-This rule was created out of the desire to make logic gates that are fairly small, have an easy to learn ruleset, and also run fairly quickly. The "2" in the name is because this is the second of two similar CA's, the old one was very similar but was cumbersome to use.
+This rule was created out of the desire to make logic gates that are fairly small, have an easy to learn ruleset, and also run fairly quickly. The "2" in the name is because this is the second of two similar CA's; the old one was very similar but was cumbersome to use.
 
-I might add some more states to support polymorphism and self-replication, but I'm not entirely sure how to go about it without doubling the state count.
+I might add some more states to support polymorphism and self-replication, but I'm not entirely sure how to go about it without doubling the state count or adding diagonals to the neighborhood.
 
 ## Details
 

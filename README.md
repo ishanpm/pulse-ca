@@ -7,7 +7,7 @@ I might add some more states to support polymorphism and self-replication, but I
 
 ## Details
 
-Pulse2 revolves around two types of pulses, "gate" and "signal". Gate pulses are used to toggle gates, which transmit or block signals. Signal pulses do nothing, but can be converted onto gate pulses. Pulses always propogate to adjacent cells that will accept them.
+Pulse2 revolves around two types of pulses, "gate" and "signal". Gate pulses are used to toggle gates, which transmit or block signals. Signal pulses do nothing, but can be converted into gate pulses. Pulses always propogate to adjacent cells that will accept them.
 
 These are the main states:
 - 0, black: Empty. Never changes.

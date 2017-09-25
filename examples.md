@@ -5,7 +5,7 @@ At the top left is a loop of wire that creates an endless stream of pulses, spac
 ### shiftregister.mc
 A bunch of shift registers arranged to make a matrix display.
 
-The top button sshifts the entire display left, the middle button pushes a red, and the bottom button pushes a green. The smaller rectangular button sends a pre-made message.
+The top button shifts the entire display left, the middle button pushes a red, and the bottom button pushes a green. The smaller rectangular button sends a pre-made message.
 
 Use state 15 to press the buttons.
 ### hexcounter.mc
@@ -19,13 +19,13 @@ A solitary spark travels through the squares and toggles them as it goes. The tw
 ### turing.mc
 A BrainF\*\*\* computer.
 
-The memory cells are only 4 bits large, but they can easily be expanded by copy/pasting the stack on top of each one. To reprogram it, use the components in the green box. No input or output instruction yet.
+The memory cells are only 4 bits large, but they can easily be expanded by copy/pasting the stack on top of each one. You can also add more memory cells. To reprogram it, use the components in the green box. No input or output instruction yet.
 
 It is currently set to multiply the current cell and the one next to it, and store the result in the cell three to the right.
 ### computer.mc
 Some unfinished components for a microprocessor.
 
-It uses pulse trains (series of a fixed number of pulses timed at 6 ticks) and pairs (a 0 and 1 wire with no strict timing) for communication. Here's a description of each:
+They use pulse trains (series of a fixed number of pulses timed at 6 ticks) and pairs (a 0 and 1 wire with no strict timing) for communication. Here's a description of each component:
 - Lower left: Miscellaneous components for pulse train and pair conversion. The loop is juggling two values and inverting them on each repetition. The left part is a pulse train to pair converter, the right part is a pulse pair to train converter, and in the middle is a 4-bit shift register.
 - Top left and top right: an ALU, in 4-bit and 8-bit varieties. Supports addition, subtraction, and multiplication. The wires near the checkmark button change the operation. Accepts input from the buttons marked "0" and "1" near the bottom, and sends output as a pulse train (hotwired to a shift register for readability).
 - Lower right: An incomplete shift-register memory cell, in 4-bit and 8-bit varieties.

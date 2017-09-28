@@ -15,6 +15,8 @@ It is currently set to multiply the current cell and the one next to it, and sto
 ### metalife.mc, (_10x10, _glider)
 Programmable metacells! These tiny metacells have an area of 44*44, and a period of 412. Also comes with a blank 10x10 board and a board with a glider on it.
 
+More information is in the file's info section (hotkey Ctrl+I on Golly for Windows).
+
 ### computer.mc
 Some unfinished components for a microprocessor. It uses pulse trains (series of a fixed number of pulses timed at 6 ticks) and pairs (a 0 and 1 wire with no strict timing) for communication. Here's a description of each:
 - Lower left: Miscellaneous components for pulse train and pair conversion. The loop is juggling two values and inverting them on each repetition. The left part is a pulse train to pair converter, the right part is a pulse pair to train converter, and in the middle is a 4-bit shift register.

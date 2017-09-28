@@ -22,6 +22,11 @@ A BrainF\*\*\* computer.
 The memory cells are only 4 bits large, but they can easily be expanded by copy/pasting the stack on top of each one. You can also add more memory cells. To reprogram it, use the components in the green box. No input or output instruction yet.
 
 It is currently set to multiply the current cell and the one next to it, and store the result in the cell three to the right.
+### metalife.mc, (_10x10, _glider)
+Programmable metacells! These tiny metacells have an area of 44*44, and a period of 412. Also comes with a blank 10x10 board and a board with a glider on it.
+
+More information is in the file's info section (hotkey Ctrl+I on Golly for Windows).
+
 ### computer.mc
 Some unfinished components for a microprocessor.
 

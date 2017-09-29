@@ -1,4 +1,9 @@
 [M2] (golly 2.8)
+#C A solitary spark travels through the squares and toggles them
+#C as it goes. The two square indicators at the top reflect the spark
+#C back into the grid.
+#C 
+#C Most of the area of the cells is occupied by a crossover for left turns.
 #R Pulse2
 #G 2506
 1 0 0 0 17

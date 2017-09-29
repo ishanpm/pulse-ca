@@ -1,4 +1,35 @@
 [M2] (golly VERSION)
+#C
+#C Miscellaneous components for computery stuff.
+#C
+#C These components use pulse trains (series of a fixed number of
+#C pulses timed at 6 ticks) and pairs (a 0 and 1 wire with no strict
+#C timing) for communication. Here's a description of each component:
+#C
+#C Lower left: Miscellaneous components for pulse train and pair
+#C conversion. The loop is juggling two values and inverting them on
+#C each repetition. The left part is a pulse train to pair converter,
+#C the right part is a pulse pair to train converter, and in the
+#C middle is a 4-bit shift register.
+#C 
+#C Top left and top right: an ALU, in 4-bit and 8-bit varieties.
+#C Supports addition, subtraction, and multiplication. The wires near
+#C the checkmark button change the operation. Accepts input from the
+#C buttons marked "0" and "1" near the bottom, and sends output as a
+#C pulse train (hotwired to a shift register for readability).
+#C
+#C Lower right: An incomplete shift-register memory cell, in
+#C 4-bit and 8-bit varieties.
+#C
+#C     The cell itself is the matrix of shift registers with the
+#C     space below it. The columns at the left are the address
+#C     select, the left wires are input, and the right wires are
+#C     output. The only way to read the memory is by filling the
+#C     register with zeroes, and then putting it back afterwards.
+#C
+#C     The mess of wires at the bottom is an attempt at making it
+#C     communicate through a single wire, but it does not work.
+#C
 #R Pulse2
 #G 189640
 1 0 0 0 17

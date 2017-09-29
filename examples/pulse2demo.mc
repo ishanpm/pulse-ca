@@ -1,4 +1,15 @@
 [M2] (golly VERSION)
+#C
+#C This shows some basic stuff about Pulse2.
+#C
+#C At the top left is a loop of wire that creates an endless stream of
+#C pulses, spaced 8 ticks apart. The pulses are split to either attempt
+#C to go through the gate, or toggle the gate. The ones that go through
+#C will toggle the small square at the bottom, and then terminate at the
+#C blue square.
+#C
+#C That's pretty much every transition. Let's make cool stuff now.
+#C
 #R Pulse2
 #G 3223
 1 0 0 0 16

@@ -1,4 +1,12 @@
 [M2] (golly 2.8)
+#C
+#C A matrix display made of shift registers.
+#C
+#C The top button shifts the entire display left, the middle button
+#C pushes a red, and the bottom button pushes a green. The smaller
+#C rectangular button sends a pre-made message.
+#C 
+#C Use state 15 to press the buttons.
 #R Pulse2
 #G 701372
 1 0 0 0 3

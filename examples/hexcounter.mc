@@ -1,4 +1,13 @@
 [M2] (golly 2.8)
+#C
+#C Accepts four bits, and displays the corresponding hex value.
+#C
+#C The four buttons toggle a bit of the binary input, and the larger
+#C button updates the display. All of the buttons are being driven by
+#C the clock circuit at the top.
+#C 
+#C You can press the buttons with state 15 if you remove the clock at
+#C the top left.
 #R Pulse2
 #G 427174
 1 0 0 11 17

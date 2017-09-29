@@ -1,6 +1,6 @@
 [M2] (golly 2.8)
 #C This is a rendition of Kok's Galaxy in metacells.
-#C The edges of the cells have been unceremoniusly truncated.
+#C The edges of the cells have been unceremoniously truncated.
 #C These are a slightly older version that have period 350,
 #C which makes them not support certain rules due to race conditions.
 #R Pulse2

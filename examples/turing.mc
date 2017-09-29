@@ -1,4 +1,14 @@
 [M2] (golly 2.8)
+#C
+#C A BrainF*** computer! Mmm, delicious Turing-completeness.
+#C 
+#C The memory cells are only 4 bits large, but they can easily be
+#C expanded by copy/pasting the stack on top of each one. You can
+#C also add more memory cells. To reprogram it, use the components in
+#C the green box. No input or output instruction yet.
+#C 
+#C It is currently set to multiply the current cell and the one next
+#C to it, and store the result in the cell three to the right.
 #R Pulse2
 #G 668172
 1 0 0 0 17

@@ -1,19 +1,20 @@
+These examples are ordered roughly from least to most complex. Definitely start with `pulse2demo.mc`.
 For more info on any pattern, view its comments (Hotkey Ctrl+I).
 
-### pulse2demo.mc
+## pulse2demo.mc
 A small circuit that shows some basic principles of the CA.
-### shiftregister.mc
+## shiftregister.mc
 A bunch of shift registers arranged to make a matrix display.
-### hexcounter.mc
+## hexcounter.mc
 A binary to hex converter.
-### langtonsant.mc
+## langtonsant.mc
 A small board for Langton's Ant.
-### turing.mc
+## turing.mc
 A BrainF\*\*\* computer.
 
 Does not support `,` or `.`, but you don't *really* need those, do you?
-### metalife.mc, metalife_galaxy.mc
+## metalife.mc, metalife_galaxy.mc
 Programmable metacells! These tiny metacells have an area of 32*32, a period of 358, and support any totalistic (B\*/S\*) rule.
 
-### computer.mc
+## computer.mc
 Some unfinished components for a microprocessor. This includes several useful components you could copy or use for inspiration.

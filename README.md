@@ -25,4 +25,4 @@ Note that green gates have both gate pulse (1 & 2) and signal pulse (4 & 5) stat
 
 ## Examples
 
-Several examples have been included, including a working BrainF\*\*\* machine and some unfinished microprocessor parts. See [examples.md](examples.md) for more info.
+Several examples have been included, including a working microprocessor! See [examples.md](examples.md) for more info.

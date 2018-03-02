@@ -27,4 +27,4 @@ Holds up to 64 16-bit values. Can be extended to hold more.
 ## processor.mc
 The finished microprocessor, with a blank instruction memory.
 ## compute-primes.mc
-Three microprocessors that work together to find prime numbers. A picture of it after 50,000,000 generations is in the root directory of the repository, with the highest prime in its memory being 139.
+Three microprocessors that work together to find prime numbers. A picture of it after 50,000,000 generations is in the root directory of the repository, with the highest prime in its memory being 163.

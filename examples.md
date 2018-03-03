@@ -1,5 +1,5 @@
 These examples are ordered roughly from least to most complex. Definitely start with `pulse2demo.mc`.
-For more info on any pattern, view its comments (Hotkey Ctrl+I).
+For more info on any pattern, view its comments (hotkey Ctrl+I in Golly).
 
 ## pulse2demo.mc
 A small circuit that shows the basic principles of the CA.

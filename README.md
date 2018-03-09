@@ -5,6 +5,12 @@ This rule was created out of the desire to make logic gates that are small, have
 
 I might add some more states to support polymorphism and self-replication, but I'm not entirely sure how to go about it without doubling the state count or adding diagonals to the neighborhood.
 
+## Instructions
+
+To run the examples, download Golly (http://golly.sourceforge.net), download this repository and move it inside the Golly directory, and copy the .rule files into the Rules folder.
+
+You can also simply copy-paste the raw .rule files into an open Golly window to install the rule, and copy-paste the example files into a blank universe to load them.
+
 ## Details
 
 Pulse2 revolves around two types of pulses, "gate" and "signal". Gate pulses are used to toggle gates, which transmit or block signals. Signal pulses do nothing, but can be converted into gate pulses. Pulses always propogate to directly adjacent cells that will accept them.

@@ -1,5 +1,5 @@
 These examples are ordered roughly from least to most complex. Definitely start with `pulse2demo.mc`.
-For more info on any pattern, view its comments (Hotkey Ctrl+I).
+For more info on any pattern, view its comments (Hotkey Ctrl+I in Golly).
 
 ## pulse2demo.mc
 A small circuit that shows the basic principles of the CA.
@@ -23,7 +23,9 @@ Briefly holds binary strings for later use.
 ## registerBlock.mc
 Four shift registers stacked atop each other to form a register block, along with an accumulator.
 ## RAM.mc
-Holds up to 64 16-bit values. Can be extended to hold more.
+Holds 64 16-bit values. Can be extended to hold more.
+## decimalDisplay.mc
+A 16-bit unsigned decimal display.
 ## processor.mc
 The finished microprocessor, with a blank instruction memory.
 ## compute-primes.mc

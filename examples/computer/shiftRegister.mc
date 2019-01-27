@@ -1,6 +1,10 @@
 [M2] (golly 3.0)
 #R Pulse2
 #G 39792
+#C The humble shift register is the backbone of the Pulse2 Processor.
+#C It is used in the IO ports as a buffer, the PC and A registers to
+#C hold a value to be added, the instruction register and the data
+#C registers as storage, and the data bus as a selector.
 1 0 0 0 17
 2 0 0 0 1
 1 0 0 17 17

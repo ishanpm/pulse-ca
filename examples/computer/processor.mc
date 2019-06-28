@@ -8,9 +8,9 @@
 #C 16-bit registers, and 4 IO ports to communicate with adjacent nodes.
 #C
 #C Every instruction uses these fields, each 4 bits long:
-#C Op - (ignored) - R1 - R1
+#C Op - (ignored) - R1 - R2
 #C Instructions that read a value read from R1, and instructions
-#C that write a value write to  R2.
+#C that write a value write to R2.
 #C 
 #C Opcodes:
 #C MOV  0000
